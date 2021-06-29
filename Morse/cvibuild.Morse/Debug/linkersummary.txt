@@ -1,0 +1,15 @@
+AiSafeTail.obj
+Buzz.obj
+dio.obj
+Morse.obj
+MorseLine.obj
+Send.obj
+cvi.lib
+NIDAQmx.lib
+cvistart.lib
+asynctmr.obj
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

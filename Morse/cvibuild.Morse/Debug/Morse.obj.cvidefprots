@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[OnMainPanelCB]
+Class="Function"
+Prototype="int OnMainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnAlfaTxtCB]
+Class="Function"
+Prototype="int OnAlfaTxtCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnTailTimerCB]
+Class="Function"
+Prototype="int OnTailTimerCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

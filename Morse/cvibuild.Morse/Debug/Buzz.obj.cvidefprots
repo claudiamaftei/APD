@@ -1,0 +1,8 @@
+[ConstructBuzzer]
+Class="Function"
+Prototype="Buzz *ConstructBuzzer();"
+
+[DestructBuzzer]
+Class="Function"
+Prototype="void DestructBuzzer(Buzz *buzz);"
+

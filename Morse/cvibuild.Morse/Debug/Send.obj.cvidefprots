@@ -1,0 +1,8 @@
+[ConstructSend]
+Class="Function"
+Prototype="Send *ConstructSend();"
+
+[DestructSend]
+Class="Function"
+Prototype="void DestructSend(Send *sender);"
+

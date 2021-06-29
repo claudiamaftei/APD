@@ -1,0 +1,68 @@
+[InitializeAiSafeTail]
+Class="Function"
+Prototype="int InitializeAiSafeTail();"
+
+[UninitializeAiSafeTail]
+Class="Function"
+Prototype="void UninitializeAiSafeTail();"
+
+[GetPointerToAiSafeTail]
+Class="Function"
+Prototype="AiTail *GetPointerToAiSafeTail();"
+
+[ReleasePointerToAiSafeTail]
+Class="Function"
+Prototype="void ReleasePointerToAiSafeTail();"
+
+[SetAiSafeTail]
+Class="Function"
+Prototype="void SetAiSafeTail(AiTail val);"
+
+[GetAiSafeTail]
+Class="Function"
+Prototype="AiTail GetAiSafeTail();"
+
+[ConstructAiTail]
+Class="Function"
+Prototype="AiTail *ConstructAiTail();"
+
+[DestructAiTail]
+Class="Function"
+Prototype="AiTail *DestructAiTail(AiTail *tail);"
+
+[AiTailAddData]
+Class="Function"
+Prototype="int AiTailAddData(void *callData, void *data, unsigned int size, unsigned int id);"
+
+[AiTailGetData]
+Class="Function"
+Prototype="int AiTailGetData(void *callData, void **data, unsigned int *size, unsigned int *id);"
+
+[AiTailGetSize]
+Class="Function"
+Prototype="int AiTailGetSize(void *callData);"
+
+[AiSafeTailInit]
+Class="Function"
+Prototype="void AiSafeTailInit();"
+
+[AiSafeTailAddData]
+Class="Function"
+Prototype="int AiSafeTailAddData(void *callData, void *data, unsigned int size, unsigned int id);"
+
+[AiSafeTailGetData]
+Class="Function"
+Prototype="int AiSafeTailGetData(void *callData, void **data, unsigned int *size, unsigned int *id);"
+
+[AiSafeTailGetSize]
+Class="Function"
+Prototype="int AiSafeTailGetSize(void *callData);"
+
+[ConstructAiSafeTail]
+Class="Function"
+Prototype="AiSafeTail *ConstructAiSafeTail();"
+
+[DestructAiSafeTail]
+Class="Function"
+Prototype="AiSafeTail *DestructAiSafeTail(AiSafeTail *tail);"
+

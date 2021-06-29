@@ -1,0 +1,8 @@
+[ConstructLed]
+Class="Function"
+Prototype="Led *ConstructLed();"
+
+[DestructLed]
+Class="Function"
+Prototype="void DestructLed(Led *led);"
+

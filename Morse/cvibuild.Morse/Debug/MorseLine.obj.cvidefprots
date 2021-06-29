@@ -1,0 +1,8 @@
+[ConstructMorseLine]
+Class="Function"
+Prototype="MorseLine *ConstructMorseLine();"
+
+[DestructMorseLine]
+Class="Function"
+Prototype="void DestructMorseLine(MorseLine *line);"
+

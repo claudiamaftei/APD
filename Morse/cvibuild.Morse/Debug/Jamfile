@@ -1,0 +1,81 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	"d:\\Program Files (x86)\\National Instruments\\CVI2017\\toolslib\\toolbox"
+	"d:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	;
+include Jamfile_instr ;
+LOCATE on "AiSafeTail.c" = "d:\\Work\\Morse" ;
+LOCATE on "AiSafeTail.h" = "d:\\Work\\Morse" ;
+LOCATE on "Buzz.c" = "d:\\Users\\aministratore\\Desktop\\Proiect APD" ;
+LOCATE on "Buzz.h" = "d:\\Users\\aministratore\\Desktop\\Proiect APD" ;
+LOCATE on "dio.c" = "d:\\Work\\Morse" ;
+LOCATE on "dio.h" = "d:\\Work\\Morse" ;
+LOCATE on "Morse.c" = "d:\\Work\\Morse" ;
+LOCATE on "Morse.h" = "d:\\Work\\Morse" ;
+LOCATE on "MorseLine.c" = "d:\\Work\\Morse" ;
+LOCATE on "MorseLine.h" = "d:\\Work\\Morse" ;
+LOCATE on "Send.c" = "d:\\Work\\Morse" ;
+LOCATE on "Send.h" = "d:\\Work\\Morse" ;
+Object "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\AiSafeTail.obj" : "d:\\Work\\Morse\\AiSafeTail.c" ;
+FILENUM on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\AiSafeTail.obj" = 1 ;
+DEFPROTS on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\AiSafeTail.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\AiSafeTail.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\AiSafeTail.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\AiSafeTail.obj.out" ;
+PrjObjects += "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\AiSafeTail.obj" ;
+Object "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Buzz.obj" : "d:\\Users\\aministratore\\Desktop\\Proiect APD\\Buzz.c" ;
+FILENUM on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Buzz.obj" = 2 ;
+DEFPROTS on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Buzz.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Buzz.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Buzz.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Buzz.obj.out" ;
+PrjObjects += "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Buzz.obj" ;
+Object "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\dio.obj" : "d:\\Work\\Morse\\dio.c" ;
+FILENUM on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\dio.obj" = 3 ;
+DEFPROTS on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\dio.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\dio.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\dio.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\dio.obj.out" ;
+PrjObjects += "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\dio.obj" ;
+Object "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.obj" : "d:\\Work\\Morse\\Morse.c" ;
+FILENUM on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.obj" = 4 ;
+DEFPROTS on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.obj.out" ;
+PrjObjects += "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.obj" ;
+Object "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\MorseLine.obj" : "d:\\Work\\Morse\\MorseLine.c" ;
+FILENUM on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\MorseLine.obj" = 5 ;
+DEFPROTS on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\MorseLine.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\MorseLine.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\MorseLine.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\MorseLine.obj.out" ;
+PrjObjects += "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\MorseLine.obj" ;
+Object "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Send.obj" : "d:\\Work\\Morse\\Send.c" ;
+FILENUM on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Send.obj" = 6 ;
+DEFPROTS on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Send.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Send.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Send.obj" = "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Send.obj.out" ;
+PrjObjects += "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Send.obj" ;
+Object "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\resources.res" : "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\resources.in.rc" ;
+Depends "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\resources.res" : "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\manifest.xml" ;
+MainFromObjects "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.exe" : "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\link_options.txt" ;
+Depends "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.exe" : "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\resources.res" ;
+Depends all : "d:\\Work\\Morse\\cvibuild.Morse\\Debug\\Morse.exe" ;
